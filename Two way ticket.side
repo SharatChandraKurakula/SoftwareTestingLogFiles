@@ -1,0 +1,209 @@
+{
+  "id": "176d02a7-d200-4ca6-b4ec-222a74d09b17",
+  "version": "2.0",
+  "name": "Two way ticket",
+  "url": "https://demo.guru99.com",
+  "tests": [{
+    "id": "7f5adbf8-cb3c-4a97-b635-bf375a351b71",
+    "name": "Two way Ticket",
+    "commands": [{
+      "id": "dace95bc-81c5-48e2-a7d1-03df53ed5983",
+      "comment": "",
+      "command": "open",
+      "target": "/test/newtours/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d0bc595e-b113-4633-b9d7-70e2345aa8aa",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x696",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0a32af6f-6004-410f-85ef-3b9364a9dd20",
+      "comment": "",
+      "command": "click",
+      "target": "name=submit",
+      "targets": [
+        ["name=submit", "name"],
+        ["css=div > input", "css:finder"],
+        ["xpath=//input[@name='submit']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "616b3c30-b7b5-4012-8e8c-f887e792000d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Flights",
+      "targets": [
+        ["linkText=Flights", "linkText"],
+        ["css=.mouseOver a", "css:finder"],
+        ["xpath=//a[contains(text(),'Flights')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'reservation.php')]", "xpath:href"],
+        ["xpath=//td[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Flights')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "84b19b5c-d5aa-43b8-8472-595f44968ae8",
+      "comment": "",
+      "command": "click",
+      "target": "name=passCount",
+      "targets": [
+        ["name=passCount", "name"],
+        ["css=b > select", "css:finder"],
+        ["xpath=//select[@name='passCount']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d551c127-35d0-4d7e-a0df-6254c4c3b3b2",
+      "comment": "",
+      "command": "select",
+      "target": "name=passCount",
+      "targets": [],
+      "value": "label=2"
+    }, {
+      "id": "951c362d-aa73-439c-a5e9-79fd87cefc05",
+      "comment": "",
+      "command": "click",
+      "target": "css=table:nth-child(1) > tbody > tr:nth-child(4) > td:nth-child(2)",
+      "targets": [
+        ["css=table:nth-child(1) > tbody > tr:nth-child(4) > td:nth-child(2)", "css:finder"],
+        ["xpath=//form/table/tbody/tr[4]/td[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1bef0cd1-81dd-49c0-b2e3-7c4734e14a6b",
+      "comment": "",
+      "command": "click",
+      "target": "name=fromPort",
+      "targets": [
+        ["name=fromPort", "name"],
+        ["css=tr:nth-child(4) > td > select", "css:finder"],
+        ["xpath=//select[@name='fromPort']", "xpath:attributes"],
+        ["xpath=//td[2]/select", "xpath:position"],
+        ["xpath=//select[contains(.,'Acapulco\nFrankfurt\nLondon\nNew York\nParis\nPortland\nSan Francisco\nSeattle\nSydney\nZurich')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7b84b3d5-4af8-47db-b1a4-10cd884c7bb2",
+      "comment": "",
+      "command": "select",
+      "target": "name=fromPort",
+      "targets": [],
+      "value": "label=Unites States"
+    }, {
+      "id": "269f01e9-4447-443b-bda2-fd4ed1dfc7ce",
+      "comment": "",
+      "command": "click",
+      "target": "name=toPort",
+      "targets": [
+        ["name=toPort", "name"],
+        ["css=tr:nth-child(6) select", "css:finder"],
+        ["xpath=//select[@name='toPort']", "xpath:attributes"],
+        ["xpath=//tr[6]/td[2]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ae3ef1ed-bea8-46be-affa-81155539d4cc",
+      "comment": "",
+      "command": "select",
+      "target": "name=toPort",
+      "targets": [],
+      "value": "label=India"
+    }, {
+      "id": "3ad2729b-988d-4a15-8354-57487ae2e0a2",
+      "comment": "",
+      "command": "click",
+      "target": "name=toMonth",
+      "targets": [
+        ["name=toMonth", "name"],
+        ["css=tr:nth-child(7) select:nth-child(1)", "css:finder"],
+        ["xpath=//select[@name='toMonth']", "xpath:attributes"],
+        ["xpath=//tr[7]/td[2]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fc195fb1-0428-4ee3-9fd2-da6145bac3b7",
+      "comment": "",
+      "command": "select",
+      "target": "name=toMonth",
+      "targets": [],
+      "value": "label=May"
+    }, {
+      "id": "cee326b5-d67e-4525-850f-a85d6213d849",
+      "comment": "",
+      "command": "click",
+      "target": "name=fromPort",
+      "targets": [
+        ["name=fromPort", "name"],
+        ["css=tr:nth-child(4) > td > select", "css:finder"],
+        ["xpath=//select[@name='fromPort']", "xpath:attributes"],
+        ["xpath=//td[2]/select", "xpath:position"],
+        ["xpath=//select[contains(.,'Acapulco\nFrankfurt\nLondon\nNew York\nParis\nPortland\nSan Francisco\nSeattle\nSydney\nZurich')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ff357cad-4300-47dc-97e6-a59d7c36c291",
+      "comment": "",
+      "command": "select",
+      "target": "name=fromPort",
+      "targets": [],
+      "value": "label=United States"
+    }, {
+      "id": "6929fa66-e041-4cc4-839c-125eb512126c",
+      "comment": "",
+      "command": "click",
+      "target": "css=table:nth-child(1) > tbody > tr:nth-child(6) > td:nth-child(2)",
+      "targets": [
+        ["css=table:nth-child(1) > tbody > tr:nth-child(6) > td:nth-child(2)", "css:finder"],
+        ["xpath=//form/table/tbody/tr[6]/td[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0d2d6c9e-2336-4adf-9141-57fab1bfd066",
+      "comment": "",
+      "command": "click",
+      "target": "name=airline",
+      "targets": [
+        ["name=airline", "name"],
+        ["css=tr:nth-child(10) select", "css:finder"],
+        ["xpath=//select[@name='airline']", "xpath:attributes"],
+        ["xpath=//tr[10]/td[2]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eac215c1-5816-4a8e-bf43-991546c01658",
+      "comment": "",
+      "command": "select",
+      "target": "name=airline",
+      "targets": [],
+      "value": "label=American Airlines"
+    }, {
+      "id": "2d676696-4435-48b7-b361-34a0c84d9396",
+      "comment": "",
+      "command": "click",
+      "target": "name=findFlights",
+      "targets": [
+        ["name=findFlights", "name"],
+        ["css=td > input", "css:finder"],
+        ["xpath=//input[@name='findFlights']", "xpath:attributes"],
+        ["xpath=//td/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "a1ec2d1e-c289-4ee8-b75d-2534c2b3de85",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["7f5adbf8-cb3c-4a97-b635-bf375a351b71"]
+  }],
+  "urls": ["https://demo.guru99.com/"],
+  "plugins": []
+}

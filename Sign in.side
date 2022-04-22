@@ -1,0 +1,129 @@
+{
+  "id": "21d02177-82f4-408a-b797-9f80150cfecd",
+  "version": "2.0",
+  "name": "Sign in",
+  "url": "https://demo.guru99.com",
+  "tests": [{
+    "id": "046d4601-6d53-4f55-b9ef-f7be49d0bcd6",
+    "name": "Sign in",
+    "commands": [{
+      "id": "20420c8f-6892-4850-a95a-9635fb1bc78c",
+      "comment": "",
+      "command": "open",
+      "target": "/test/newtours/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "95ca0ed5-2ec9-487d-a82f-e1f5371a1978",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x696",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "97d7b385-f827-4f6b-aeda-e7ea7d86282c",
+      "comment": "",
+      "command": "click",
+      "target": "name=userName",
+      "targets": [
+        ["name=userName", "name"],
+        ["css=tr:nth-child(2) > td > input", "css:finder"],
+        ["xpath=//input[@name='userName']", "xpath:attributes"],
+        ["xpath=//td[2]/input", "xpath:position"]
+      ],
+      "value": "Sharat Chandra"
+    }, {
+      "id": "21f748e7-6fd9-4fc9-b18b-b818571e5445",
+      "comment": "",
+      "command": "click",
+      "target": "name=userName",
+      "targets": [
+        ["name=userName", "name"],
+        ["css=tr:nth-child(2) > td > input", "css:finder"],
+        ["xpath=//input[@name='userName']", "xpath:attributes"],
+        ["xpath=//td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fca83ff6-00dc-4867-98de-91b3197cb9b4",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "name=userName",
+      "targets": [
+        ["name=userName", "name"],
+        ["css=tr:nth-child(2) > td > input", "css:finder"],
+        ["xpath=//input[@name='userName']", "xpath:attributes"],
+        ["xpath=//td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "650ca49b-338c-476e-9a89-d87ddba465f4",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(5)",
+      "targets": [
+        ["css=div:nth-child(5)", "css:finder"],
+        ["xpath=//body/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8b65f726-732c-4d27-8680-f32a5b8c819a",
+      "comment": "",
+      "command": "click",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=tr:nth-child(3) input", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//tr[3]/td[2]/input", "xpath:position"]
+      ],
+      "value": "9876543210"
+    }, {
+      "id": "c6bb9a54-49f2-425b-8e74-b6381bd39b8f",
+      "comment": "",
+      "command": "click",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=tr:nth-child(3) input", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//tr[3]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "daa688b8-1585-4de4-be59-6da77008f753",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=tr:nth-child(3) input", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//tr[3]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a5a397af-f968-42b1-a8d9-df9653ba731b",
+      "comment": "",
+      "command": "click",
+      "target": "name=submit",
+      "targets": [
+        ["name=submit", "name"],
+        ["css=div > input", "css:finder"],
+        ["xpath=//input[@name='submit']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "56b9b499-ae42-4eff-8f5f-edfd3bd692f6",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["046d4601-6d53-4f55-b9ef-f7be49d0bcd6"]
+  }],
+  "urls": ["https://demo.guru99.com/"],
+  "plugins": []
+}
